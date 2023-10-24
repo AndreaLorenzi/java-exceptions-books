@@ -17,10 +17,10 @@ public class Book {
             throw new IllegalArgumentException("Publisher field cannot be empty");
         }
 
-        this.title = title;
-        this.pageCount = pageCount;
-        this.author = author;
-        this.publisher = publisher;
+        setTitle(title);
+        setPageCount(pageCount);
+        setAuthor(author);
+        setPublisher(publisher);
     }
 
     //getter and setter per title
